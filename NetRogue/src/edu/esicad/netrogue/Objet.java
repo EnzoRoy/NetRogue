@@ -1,6 +1,23 @@
 package edu.esicad.netrogue;
 
-public class Objet
+public abstract class Objet
 {
+	
+	private String nomObjet;
+	
+	public String getNomObjet() {
+		return nomObjet;
+	}
 
+	public void setNomObjet(String nomObjet) {
+		this.nomObjet = nomObjet;
+	}
+
+	public Objet(String nomObjet)
+	{
+		this.nomObjet = nomObjet;
+	}
+	
+
+	
 }

@@ -15,7 +15,7 @@ public class NetRogueApplet extends JApplet
 	{
 		setSize(800, 600);
 		ressources = new GestionnaireRessources();
-		plateau = new Plateau(20, 20, ressources);
+		plateau = new Plateau(10, 10, ressources);
 	}
 	@Override
 	public void start()
@@ -33,7 +33,7 @@ public class NetRogueApplet extends JApplet
 	public void paint(Graphics g)
 	{
 		super.paint(g);
-		plateau.dissiner(g);
+		plateau.dessiner(g);
 
 	}
 

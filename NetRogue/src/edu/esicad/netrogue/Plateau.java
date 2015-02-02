@@ -34,11 +34,13 @@ public class Plateau
 	{
 		return zones[i][j];
 	}
-	public void dissiner(Graphics g)
+	
+	public void dessiner(Graphics g)
 	{
 		for (int i=0;i<getLargeur();++i)
 			for (int j=0;j<getHauteur();++j)
 				zones[i][j].dessinerZone(g);
-				
 	}
+	
+	
 }
